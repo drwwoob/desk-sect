@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Windows",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Qt/6.x.x/mingw_x64/include/**"  // 替换为你的 Qt 安装路径
+            ],
+            "defines": [],
+            "compilerPath": "C:/path/to/your/compiler",  // 替换为你的编译器路径
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
