@@ -9,6 +9,7 @@ find_package(Qt6 REQUIRED COMPONENTS Widgets)
 set(SOURCES
     main.cpp
     mainwindow.cpp
+    customizeButton.cpp
 )
 
 # Add the executable

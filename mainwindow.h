@@ -6,20 +6,16 @@
 #include <QMainWindow>
 #include <QLabel>
 #include <QMovie>
-
-#include <QApplication>
-#include <QPushButton>
 #include <QVBoxLayout>
-#include <QMouseEvent>
-#include <QDebug>
-
+#include <QPushButton>
+#include "customizeButton.h"
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    ~MainWindow() = default;
 
 protected:
     void mousePressEvent(QMouseEvent *event) override;
@@ -30,6 +26,7 @@ private slots:
     void onButtonClick();
 
 private:
+    CustomizeButton *file_button;
     QLabel *petLabel;
     QMovie *petMovie;
     QPoint dragPosition;

@@ -1,0 +1,15 @@
+#file_button {
+    background: transparent;
+}
+
+#file_button:hover {
+    background: transparent;
+}
+
+#file_button:toggle{
+    background: transparent;
+}
+
+#file_button:pressed {
+    background: transparent;
+}
